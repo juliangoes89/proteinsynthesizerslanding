@@ -31,11 +31,19 @@ function App() {
           <h2 className='text-3xl font-bold my-2'>Acerca de este juego</h2>
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/8UXSFCCDFiY?si=YtGVMSbCBFKP4Geh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           <p className='text-lg'>
-            Este juego es una representación de la síntesis de proteinas, en su <b>proceso de traducción.</b>
+            Este juego open source es una representación de la síntesis de proteinas, en su <b>proceso de traducción.</b>
             <br />
             La idea es que puedas aprender como se da el <b>proceso de traducción</b> de síntesis de proteinas en el cuerpo humano;
             y los elementos involucrados en este proceso y como estos elementos se relacionan entre si para dar lugar a la síntesis de proteinas.
           </p>
+          <h4 className='text-xl font-bold my-2'>Repositorio de código del juego</h4>
+          <div className="codebox">
+            <pre>
+              <code>
+              git clone https://github.com/juliangoes89/ProteinSynthesizersAlpha.git
+              </code>
+            </pre>
+          </div>
         </div>
         <div className='card my-4 p-4 shadow-lg rounded-lg bg-gradient-to-b from-sky-900 to-sky-950' id="indice">
           <h2 className='text-3xl font-bold my-2'>Indice</h2>

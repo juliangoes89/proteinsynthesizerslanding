@@ -1,1 +1,9 @@
-
+.codebox {
+    background-color: #1e293b; /* Dark background */
+    color: #e2e8f0; /* Light text */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: pre; /* Preserve whitespace */
+}
