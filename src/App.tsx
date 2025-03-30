@@ -141,8 +141,8 @@ function App() {
             Los aminoácidos son los bloques de construcción de las proteínas y se unen entre sí para formar cadenas de proteínas.
             <br />
             Cada aminoácido está codificado por un codón específico en el ARNm y es transportado al ribosoma por un ARNt.
-            <h5 className='text-lg font-bold my-1'>Tabla de Aminoacidos</h5>
-            <a href={tablaAminoacidosPdf} className="text-blue-200 hover:text-blue-50 underline" target="_blank" rel="noopener noreferrer">PDF Tabla de Aminoacidos</a>
+            <h5 className='text-lg font-bold my-1'>Tabla de Aminoácidos</h5>
+            <a href={tablaAminoacidosPdf} className="text-blue-200 hover:text-blue-50 underline" target="_blank" rel="noopener noreferrer">PDF Tabla de Aminoácidos</a>
           </p>
           <h4 className='text-lg font-bold my-1' id="Ribosoma">Ribosoma</h4>
           <img src={ribosomaImage} alt="Ribosoma" />
@@ -163,11 +163,11 @@ function App() {
           <br/>
           el objetivo del jugador es aterrizar el anticodon en el codon correspondiente
           <br/> 
-          de modo que el aminoacido sea liberado correctamente al aterrizar y empieze a construir la cadena de aminoacidos
+          de modo que el aminoacido sea liberado correctamente al aterrizar y empieze a construir la cadena de aminoácidos
           <br/>
           al aterrizar correctamente el jugador tomará control del siguiente ARNt y así sucesivamente hasta llegar a la señal de parada
           <br/>
-          liberando así la cadena de aminoacidos y sintetizando una proteína
+          liberando así la cadena de aminoácidos y sintetizando una proteína
         </p>
         <h3 className='text-2xl font-bold my-1'>Controles</h3>
         <div>
