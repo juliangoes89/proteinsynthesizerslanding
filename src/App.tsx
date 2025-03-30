@@ -159,11 +159,11 @@ function App() {
         }></img>
         <h3 className='text-2xl font-bold my-1'>Objetivo del juego</h3>
         <p>
-          El jugador controla el ARNt, el cual carga un Anticodón y un aminoacido
+          El jugador controla el ARNt, el cual carga un Anticodón y un aminoácido
           <br/>
           el objetivo del jugador es aterrizar el anticodon en el codon correspondiente
           <br/> 
-          de modo que el aminoacido sea liberado correctamente al aterrizar y empieze a construir la cadena de aminoácidos
+          de modo que el aminoácido sea liberado correctamente al aterrizar y empieze a construir la cadena de aminoácidos
           <br/>
           al aterrizar correctamente el jugador tomará control del siguiente ARNt y así sucesivamente hasta llegar a la señal de parada
           <br/>
