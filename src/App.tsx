@@ -25,16 +25,16 @@ function App() {
   
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 dark">
-      <h1 className="text-4xl font-bold my-3">Sintetizador de proteinas</h1>
+      <h1 className="text-4xl font-bold my-3">Sintetizador de proteínas</h1>
       <div className="my-1">
         <div className="card my-4 p-4 shadow-lg rounded-lg bg-gradient-to-b from-sky-900 to-sky-950">
           <h2 className='text-3xl font-bold my-2'>Acerca de este juego</h2>
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/8UXSFCCDFiY?si=YtGVMSbCBFKP4Geh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           <p className='text-lg'>
-            Este juego open source es una representación de la síntesis de proteinas, en su <b>proceso de traducción.</b>
+            Este juego open source es una representación de la síntesis de proteínas, en su <b>proceso de traducción.</b>
             <br />
-            La idea es que puedas aprender como se da el <b>proceso de traducción</b> de síntesis de proteinas en el cuerpo humano;
-            y los elementos involucrados en este proceso y como estos elementos se relacionan entre si para dar lugar a la síntesis de proteinas.
+            La idea es que puedas aprender como se da el <b>proceso de traducción</b> de síntesis de proteínas en el cuerpo humano;
+            y los elementos involucrados en este proceso y como estos elementos se relacionan entre si para dar lugar a la síntesis de proteínas.
           </p>
           <h4 className='text-xl font-bold my-2'>Repositorio de código del juego</h4>
           <div className="codebox">
@@ -48,7 +48,7 @@ function App() {
         <div className='card my-4 p-4 shadow-lg rounded-lg bg-gradient-to-b from-sky-900 to-sky-950' id="indice">
           <h2 className='text-3xl font-bold my-2'>Indice</h2>
           <ol className='list-decimal list-inside my-2'>
-            <li><a href='#teoria' className="text-blue-200 hover:text-blue-50 underline">Teoría de la traducción de síntesis de proteinas</a></li>
+            <li><a href='#teoria' className="text-blue-200 hover:text-blue-50 underline">Teoría de la traducción de síntesis de proteínas</a></li>
             <li><a href='#juego' className="text-blue-200 hover:text-blue-50 underline">¿Cómo jugar?</a></li>
             <li><a href='#pretest' className="text-blue-200 hover:text-blue-50 underline">Cuestionario Pretest</a></li>
             <li><a href='#jugar' className="text-blue-200 hover:text-blue-50 underline">Jugar</a></li>
@@ -56,7 +56,7 @@ function App() {
           </ol>
         </div>
         <div className="card my-4 p-4 shadow-lg rounded-lg bg-gradient-to-b from-sky-900 to-sky-950" id="teoria">
-          <h2 className='text-3xl font-bold my-2'>Teoría de la traducción de síntesis de proteinas</h2>
+          <h2 className='text-3xl font-bold my-2'>Teoría de la traducción de síntesis de proteínas</h2>
           <p className='text-lg'>
             La <b>traducción</b> es el proceso por el cual la información genética contenida en el ARNm se utiliza para producir proteínas.
             <br />
@@ -72,7 +72,7 @@ function App() {
             <br />
             La traducción es un proceso esencial para la vida y se lleva a cabo en todas las células vivas.
           </p>
-          <h3 className='text-2xl font-bold my-1'>Elementos que componen la sistesís de proteinas</h3>
+          <h3 className='text-2xl font-bold my-1'>Elementos que componen la sistesís de proteínas</h3>
           <ul className='list-disc list-inside my-2'>
             <li><a href='#ARNt' className="text-blue-200 hover:text-blue-50 underline">ARNt</a></li>
             <li><a href='#ARNm'className="text-blue-200 hover:text-blue-50 underline">ARNm</a></li>
