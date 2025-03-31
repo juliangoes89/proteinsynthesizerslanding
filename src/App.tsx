@@ -199,7 +199,7 @@ function App() {
             confirmPretest ? (<>
                           <h1 className="text-xl font-bold">Gracias por responder el cuestionario, puedes jugar</h1>
               <h1 className="text-xl font-bold">Recuerda girar el telefono horizontalmente para jugar</h1>
-              <a href="/game" className="text-3xl font-bold my-2 text-center block bg-gradient-to-b from-pink-700 to-pink-900 p-4 rounded-lg shadow-lg">Jugar</a>
+                <a href="/game" target="_blank" rel="noopener noreferrer" className="text-3xl font-bold my-2 text-center block bg-gradient-to-b from-pink-700 to-pink-900 p-4 rounded-lg shadow-lg">Jugar</a>
             </>
             ) : (
               <h1 className="text-xl font-bold">Por favor responde el cuestionario y confirma que lo respondiste para poder jugar</h1>
