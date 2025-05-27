@@ -217,10 +217,10 @@ function App() {
               <>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-transparent bg-clip-text">Gracias por jugar!!!</h1>
               <h1 className="text-xl font-bold">Por favor responde estos cuestionarios después de jugar</h1>
-              <h1 className="text-2xl font-bold text-green-400">Recuerda pulsar el botón para finalizar el cuestionario</h1>
+              <h1 className="text-2xl font-bold text-green-400">Recuerda pulsar el botón "enviar" para finalizar el cuestionario</h1>
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGlyztf9DvzEukkLWdHJP8Pkn0ZeCZnOs_8Ud2_tPJpaWWvA/viewform?embedded=true" width="100%" height="3800" frameBorder="0" style={{ margin: 0 }}>Loading…</iframe>
               <h1 className="text-xl font-bold">Cuestionario sobre gusto por los videojuegos</h1>
-              <h1 className="text-2xl font-bold text-purple-400">Recuerda pulsar el botón para finalizar el cuestionario</h1>
+              <h1 className="text-2xl font-bold text-purple-400">Recuerda pulsar el botón "enviar" para finalizar el cuestionario</h1>
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0NEFUZBJ3xguieqqZiXIF4gbHfFiS6O1XsmM4mNpisdAGAA/viewform?embedded=true" width="100%" height="3800" frameBorder="0" style={{ margin: 0 }}>Loading…</iframe>
               </>
             ):(
