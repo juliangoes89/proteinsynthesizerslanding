@@ -187,7 +187,7 @@ function App() {
         </div>
         <div className="card my-4 p-4 shadow-lg rounded-lg bg-gradient-to-b from-sky-900 to-sky-950" id="pretest">
           <h1 className="text-xl font-bold">Por favor responde este cuestionario para poder jugar</h1>
-          <h1 className="text-2xl font-bold text-green-400">Recuerda pulsar el botón para finalizar el cuestionario</h1>
+          <h1 className="text-2xl font-bold text-green-400">Recuerda pulsar el botón "enviar" para finalizar el cuestionario</h1>
           {!confirmPlayed && (<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedtVAIVJ-0nvc5Z15cIx8q5prKnrWu1GTA3Yvm33x4gRVVAg/viewform?embedded=true" width="100%" height="3800" frameBorder="0" style={{ margin: 0 }}>Loading…</iframe>)}
             <div className="flex items-center my-4">
             <input type="checkbox" id="confirmPretest" onChange={(e) => setConfirmPretest(e.target.checked)} className="mr-2 w-6 h-6" disabled={confirmPlayed}></input>
